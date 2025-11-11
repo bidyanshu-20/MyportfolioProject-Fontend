@@ -89,7 +89,7 @@ export default function Home() {
           className="flex justify-center md:w-1/2 mb-5 md:mt-20 order-1"
         >
           <img
-            src="Mypic.jpg"
+            src="/Mypic.jpg"
             className="rounded-full w-[260px] h-[260px] md:w-[420px] md:h-[420px] object-cover shadow-2xl hover:scale-105 hover:shadow-pink-400/50 transition duration-500"
             alt="Profile"
           />
