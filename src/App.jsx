@@ -7,6 +7,7 @@ import Experience from './components/Experience';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import {Routes ,Route} from 'react-router-dom'
+
 function App() {
   return (
     // <div className='dark:bg-primary-dark dark bg-primary text-white'>

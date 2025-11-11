@@ -45,7 +45,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 md:px-20 py-20">
+    <div className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 md:px-20 py-20 fontB">
       <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
       <p className="text-sm">Fill out the form to contact us</p>
 

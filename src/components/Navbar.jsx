@@ -23,7 +23,7 @@ function Navbar() {
   }, [menu]);
 
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 h-16 shadow-md fixed top-0 left-0 right-0 z-50 bg-white dark:bg-gray-900 transition-colors duration-300 fontB">
       <div className="flex justify-between items-center h-16">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">

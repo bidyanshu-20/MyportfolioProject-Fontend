@@ -5,10 +5,13 @@ import { SiMongodb, SiExpress } from "react-icons/si";
 import { ReactTyped } from "react-typed";
 import { motion } from "framer-motion";
 import Footer from "./Footer";
+import "../App.css";  
+
+
 
 export default function Home() {
   return (
-    <div className="bg-gray-100 dark:bg-gray-900 text-black dark:text-white max-w-screen min-h-screen container mx-auto px-4 md:px-20 py-20">
+    <div className="bg-gray-100 dark:bg-gray-900 text-black dark:text-white max-w-screen min-h-screen container mx-auto px-4 md:px-20 py-20 fontA">
       <div className="flex flex-col md:flex-row items-center justify-between">
         
         <motion.div 
@@ -19,7 +22,7 @@ export default function Home() {
         >
           <span className="text-lg text-gray-600 dark:text-gray-300">👋 Welcome to My Workspace</span>
           
-          <div className="flex flex-wrap items-center gap-2 text-2xl md:text-4xl font-semibold">
+          <div className="flex flex-wrap items-center gap-2 text-2xl md:text-4xl font-semibold ">
             <h1>Hello, I'm a</h1>
             <ReactTyped
               className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"
@@ -86,7 +89,7 @@ export default function Home() {
           className="flex justify-center md:w-1/2 mb-5 md:mt-20 order-1"
         >
           <img
-            src="https://images.unsplash.com/photo-1672219270439-ca2c8d7b1dcc?q=80&w=1171&auto=format&fit=crop"
+            src="Mypic.jpg"
             className="rounded-full w-[260px] h-[260px] md:w-[420px] md:h-[420px] object-cover shadow-2xl hover:scale-105 hover:shadow-pink-400/50 transition duration-500"
             alt="Profile"
           />

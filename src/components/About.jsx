@@ -1,10 +1,10 @@
 import React from "react";
-
+import App from "../App";
 function About() {
   return (
     <div
       name="About"
-      className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 md:px-20 py-20"
+      className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 md:px-20 py-20 fontC"
     >
       <div>
         <h1 className="text-3xl font-bold mb-5">About</h1>
@@ -59,7 +59,7 @@ function About() {
         </h1>
         <p>
           My mission is to leverage my skills and creativity to deliver
-          innovative [Your Field] solutions that exceed client expectations and
+          innovative [Tech & Software Field] solutions that exceed client expectations and
           contribute positively to the digital landscape. I am committed to
           continuous learning and growth, always seeking new challenges and
           opportunities to expand my horizons.

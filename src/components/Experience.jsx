@@ -1,5 +1,5 @@
 import React from "react";
-
+import App from "../App";
 const Experience = () => {
   const techStack = [
     {
@@ -49,7 +49,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-16 md:py-20">
+    <div className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 sm:px-6 md:px-12 lg:px-20 py-16 md:py-20 fontB">
       {/* Header Section */}
       <div className="text-center md:text-left">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">

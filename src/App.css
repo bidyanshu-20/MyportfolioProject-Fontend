@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Sirin+Stencil&display=swap');
+
 .button-85 {
   padding: 0.6em 2em;
   border: none;
@@ -40,6 +42,18 @@
   animation: glowing-button-85 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
+}
+
+.fontA {
+ font-family: "Exo 2", sans-serif;
+}
+
+.fontB {
+ font-family: "Roboto Slab", serif;
+}
+
+.fontC {
+   font-family: "Sirin Stencil", sans-serif;
 }
 
 @keyframes glowing-button-85 {

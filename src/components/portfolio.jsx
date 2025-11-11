@@ -1,35 +1,41 @@
 import React from "react";
-
+import App from "../App";
 const Portfolio = () => {
   const technologies = [
     {
       name: "MongoDB",
       image: "https://img.icons8.com/color/96/000000/mongodb.png",
+      desc:"MongoDB is a NoSQL database that stores data in a flexible, JSON-like format instead of tables like SQL databases."
     },
     {
       name: "Express Js",
       image: "https://img.icons8.com/ios/96/000000/express-js.png",
+      desc:"Express.js is a fast, lightweight, and flexible web framework for Node.js. It helps you build servers, APIs, and backend logic easily."
     },
     {
       name: "React Js",
       image: "https://img.icons8.com/color/96/000000/react-native.png",
+      desc:"React.js is a JavaScript library used to build fast, interactive, and dynamic user interfaces, especially for websites and web apps.It was created by Facebook (Meta) and is currently one of the most popular frontend tools."
     },
     {
       name: "Node Js",
       image: "https://img.icons8.com/color/96/000000/nodejs.png",
+      desc:"Node.js is a runtime environment that allows you to run JavaScript outside the browser—usually on a server. Before Node.js, JavaScript could only run inside a browser.Node.js changed that and made JavaScript a full-stack language."
     },
     {
       name: "c++",
       image: "https://isocpp.org/assets/images/cpp_logo.png",
+      desc:"C++ is a powerful, fast, and flexible programming language used for building high-performance applications.It is an extension of C language, and that’s why it's called C plus plus"
     },
     {
       name: "SQl",
       image: "https://img.icons8.com/color/96/000000/python.png",
+      desc:"SQL (Structured Query Language) is a language used to store, manage, and retrieve data from databases.Whenever data is involved—like users, orders, messages, login info—SQL is used."
     },
   ];
 
   return (
-    <div className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 md:px-20 py-20">
+    <div className="max-w-screen-2xl min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white container mx-auto px-4 md:px-20 py-20 fontA">
       <div>
         <h1 className="text-3xl font-bold mb-5">Portfolio</h1>
         <span className="underline font-semibold">Featured Work </span>
@@ -52,8 +58,7 @@ const Portfolio = () => {
               <div className="text-center">
                 <h2 className="font-bold text-xl mb-2">{item.name}</h2>
                 <p className="text-gray-600 dark:text-gray-400 text-sm px-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
-                  tenetur.
+                  {item.desc}
                 </p>
               </div>
 
